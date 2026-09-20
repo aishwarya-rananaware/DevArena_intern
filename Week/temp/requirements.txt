@@ -1,0 +1,3 @@
+
+# Project does not have any software or hardware requirements
+# No external dependencies required.
