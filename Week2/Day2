@@ -1,0 +1,20 @@
+while True:
+    try:
+        marks=int(input("Enter your Marks ? "))
+        if 0<=marks<=100:
+            break
+        else:
+            print("invaliid") #
+
+    except ValueError: # because python cannot convert the f into the integer so we need to handle this with vale error
+        print("uuu")
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+else:
+    print("Grade E")
